@@ -12,7 +12,7 @@ export default class App extends Component {
   };
 
   update = (type) => {
-    console.log("type", type);
+    
     this.setState((state) => {
       return {
         [type]: state[type] + 1,
